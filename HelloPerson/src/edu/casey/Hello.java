@@ -11,6 +11,7 @@ public class Hello {
 		String splitName = "";
 		Scanner s = new Scanner(System.in);
 		System.out.println("Please tell me your name!");
+		fullName = s.nextLine();		
 		do{
 			if(!fullName.equals("")){
 				name = fullName.split(" ");
